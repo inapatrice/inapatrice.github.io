@@ -1,0 +1,68 @@
+/*pink*/
+h1{
+	font-family: menlo;
+	font-size:55px;
+}
+
+h2 {
+	font-family: menlo;
+	color: yellow;
+}
+
+h3 {
+	font-family: menlo;
+	color: white;
+	padding: 10px;
+}
+
+body {
+	background-color: black;
+}
+
+/*green*/
+p {
+	font-family: menlo;
+	color:#3cff00;
+}
+
+p.pages {
+	font-family: menlo;
+	font-size: 22px;
+	text-align: right;
+	margin: auto;
+
+}
+
+p.projects {
+	font-family: menlo;
+	font-size: 22px;
+	text-align: left;
+	margin: auto;
+	padding-top: 10px;
+	color:yellow;
+}
+
+a.projectlink{
+	text-decoration: none;
+	color:yellow;
+}
+
+a.header{
+	text-decoration: none;
+	color:white;
+}
+
+/*blue*/
+a{
+	text-decoration: none;
+	color:#00c3ff; 
+	padding-right: 20px;
+	margin:auto;
+}
+
+/*purple hover link*/
+a:hover {
+	color: #ab24ff; 
+}
+
+
