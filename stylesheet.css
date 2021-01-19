@@ -12,7 +12,30 @@ h2 {
 h3 {
 	font-family: menlo;
 	color: white;
-	padding: 10px;
+	margin-top: 10px;
+	width:1000px;
+}
+
+h2.projectTitle {
+	font-family: menlo;
+	color: yellow;
+}
+
+h3.firstLine {
+	font-family: menlo;
+	color: white;
+}
+
+.projectTitle {
+	font-family: menlo;
+	color: white;
+}
+
+.projectInfo {
+	font-family: menlo;
+	color: white;
+	margin-top: -40px;
+	max-width: 1300px;
 }
 
 body {
@@ -25,11 +48,19 @@ p {
 	color:#3cff00;
 }
 
+p.projectLang {
+	font-family: menlo;
+	font-style: italic;
+	margin-top: -50px;
+	margin-bottom: 55px;
+}
+
 p.pages {
 	font-family: menlo;
 	font-size: 22px;
 	text-align: right;
 	margin: auto;
+	padding-bottom: 0px;
 
 }
 
@@ -37,14 +68,15 @@ p.projects {
 	font-family: menlo;
 	font-size: 22px;
 	text-align: left;
-	margin: auto;
-	padding-top: 10px;
 	color:yellow;
+	margin-top: -50px;
 }
 
+/*pink*/
 a.projectlink{
 	text-decoration: none;
-	color:yellow;
+	color: #fc0390;
+	margin-top: 1px;
 }
 
 a.header{
