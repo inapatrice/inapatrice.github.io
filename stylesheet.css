@@ -2,15 +2,38 @@
 h1{
 	font-family: menlo;
 	font-size:55px;
+	color: white;
 }
+
+h1.intro {
+	font-family: menlo;
+	font-size:35px;
+	color: yellow;
+}
+
+h1.subtitle {
+	font-family: menlo;
+	font-size:30px;
+	font-weight: lighter;
+	color: #ab24ff;
+}
+
 
 h2 {
 	font-family: menlo;
 	color: yellow;
 }
 
+h2.specialties {
+	font-family: menlo;
+	color: #fc0390;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
 h3 {
 	font-family: menlo;
+	font-weight: lighter;
 	color: white;
 	margin-top: 10px;
 	width:1000px;
@@ -38,8 +61,20 @@ h3.firstLine {
 	max-width: 1300px;
 }
 
+/*gray*/
+/*body {
+	background-color: #2C2C24;
+}*/
+
 body {
 	background-color: black;
+}
+
+div.dates {
+	font-family: menlo;
+	font-style: italic;
+	color: #ab24ff;
+	margin-top: -15px;
 }
 
 /*green*/
@@ -48,11 +83,42 @@ p {
 	color:#3cff00;
 }
 
+p.awards {
+	font-family: menlo;
+	font-size: 22px;
+	text-align: left;
+	color:#fc0390;
+}
+
+p.awardDates {
+	font-family: menlo;
+	font-style: italic;
+	color:#3cff00;
+	margin-top: -20px;
+}
+
+.awardInfo {
+	font-family: menlo;
+	color: white;
+}
+
 p.projectLang {
 	font-family: menlo;
 	font-style: italic;
 	margin-top: -50px;
 	margin-bottom: 55px;
+}
+
+p.position {
+	font-family: menlo;
+	font-size: 20px;
+	color:#3cff00;
+	margin-top: -20px;
+}
+
+.positionInfo {
+	font-family: menlo;
+	color: white;
 }
 
 p.pages {
