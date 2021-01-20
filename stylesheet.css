@@ -1,36 +1,47 @@
-/*pink*/
+/*Ina Patrice*/
+/*CSS file for website inapatrice.github.io*/
+/*stylesheet.css*/
+
+/*pages*/
+/*index.html*/
+/*aboutme.html*/
+/*projects.html*/
+/*experience.html*/
+/*awards.html*/
+/*contact.html*/
+
+/*colors used for the website*/
+/*pink: #fc0390*/
+/*green: #3cff00*/
+/*yellow: yellow*/
+/*white: white*/
+/*black: black*/
+/*purple: #ab24ff*/
+/*blue: #00c3ff*/
+
+/*background of webpage*/
+body {
+	background-color: black;
+}
+
+/*header information for the entire page*/
+/*website name -- white*/
 h1{
 	font-family: menlo;
 	font-size:55px;
 	color: white;
 }
-
-h1.intro {
-	font-family: menlo;
-	font-size:35px;
-	color: yellow;
+/*website name link -- white*/
+a.header{
+	text-decoration: none;
+	color:white;
 }
-
-h1.subtitle {
-	font-family: menlo;
-	font-size:30px;
-	font-weight: lighter;
-	color: #ab24ff;
-}
-
-
+/*page title -- yellow*/
 h2 {
 	font-family: menlo;
 	color: yellow;
 }
-
-h2.specialties {
-	font-family: menlo;
-	color: #fc0390;
-	font-weight: lighter;
-	font-size: 20px;
-}
-
+/*page descriptions -- white*/
 h3 {
 	font-family: menlo;
 	font-weight: lighter;
@@ -38,89 +49,12 @@ h3 {
 	margin-top: 10px;
 	width:1000px;
 }
-
-h2.projectTitle {
-	font-family: menlo;
-	color: yellow;
-}
-
-h3.firstLine {
-	font-family: menlo;
-	color: white;
-}
-
-.projectTitle {
-	font-family: menlo;
-	color: white;
-}
-
-.projectInfo {
-	font-family: menlo;
-	color: white;
-	margin-top: -40px;
-	max-width: 1300px;
-}
-
-/*gray*/
-/*body {
-	background-color: #2C2C24;
-}*/
-
-body {
-	background-color: black;
-}
-
-div.dates {
-	font-family: menlo;
-	font-style: italic;
-	color: #ab24ff;
-	margin-top: -15px;
-}
-
-/*green*/
+/*date and time at top of page -- green*/
 p {
 	font-family: menlo;
 	color:#3cff00;
 }
-
-p.awards {
-	font-family: menlo;
-	font-size: 22px;
-	text-align: left;
-	color:#fc0390;
-}
-
-p.awardDates {
-	font-family: menlo;
-	font-style: italic;
-	color:#3cff00;
-	margin-top: -20px;
-}
-
-.awardInfo {
-	font-family: menlo;
-	color: white;
-}
-
-p.projectLang {
-	font-family: menlo;
-	font-style: italic;
-	margin-top: -50px;
-	margin-bottom: 55px;
-}
-
-p.position {
-	font-family: menlo;
-	font-size: 20px;
-	color:#3cff00;
-	margin-top: -20px;
-}
-
-.positionInfo {
-	font-family: menlo;
-	color: white;
-}
-
+/*page menu at top of page -- blue*/
 p.pages {
 	font-family: menlo;
 	font-size: 22px;
@@ -129,7 +63,72 @@ p.pages {
 	padding-bottom: 0px;
 
 }
+/*page menu links -- blue*/
+a{
+	text-decoration: none;
+	color:#00c3ff; 
+	padding-right: 20px;
+	margin:auto;
+}
+/*link hover color -- purple*/
+a:hover {
+	color: #ab24ff; 
+}
 
+/*blinking cursor code*/
+.blinking {
+	display: inline-block;
+	margin-left: -45px;
+}
+div {
+	font-family: menlo;
+	color:white;
+	font-weight: thick;
+}
+
+/*index.html*/
+/*opening message*/
+h1.intro {
+	font-family: menlo;
+	font-size:35px;
+	color: yellow;
+}
+/*fourth year message*/
+h1.subtitle {
+	font-family: menlo;
+	font-size:30px;
+	font-weight: lighter;
+	color: #ab24ff;
+}
+/*coding languages*/
+h2.specialties {
+	font-family: menlo;
+	color: #fc0390;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+/*projects.html*/
+/*projects header*/
+h2.projectTitle {
+	font-family: menlo;
+	color: yellow;
+}
+/*project descriptions*/
+.projectInfo {
+	font-family: menlo;
+	color: white;
+	margin-top: -40px;
+	max-width: 1300px;
+}
+/*project language*/
+p.projectLang {
+	font-family: menlo;
+	font-style: italic;
+	margin-top: -50px;
+	margin-bottom: 55px;
+}
+/*project title*/
 p.projects {
 	font-family: menlo;
 	font-size: 22px;
@@ -137,30 +136,59 @@ p.projects {
 	color:yellow;
 	margin-top: -50px;
 }
-
-/*pink*/
+/*project link*/
 a.projectlink{
 	text-decoration: none;
 	color: #fc0390;
 	margin-top: 1px;
 }
 
-a.header{
-	text-decoration: none;
-	color:white;
+/*experience.html and awards.html*/
+/*company name and award name*/
+p.awards {
+	font-family: menlo;
+	font-size: 22px;
+	text-align: left;
+	color:#fc0390;
+}
+/*dates worked*/
+div.dates {
+	font-family: menlo;
+	font-style: italic;
+	color: #ab24ff;
+	margin-top: -15px;
+}
+/*position name*/
+p.position {
+	font-family: menlo;
+	font-size: 20px;
+	color:#3cff00;
+	margin-top: -20px;
+}
+/*position description*/
+.positionInfo {
+	font-family: menlo;
+	color: white;
 }
 
-/*blue*/
-a{
-	text-decoration: none;
-	color:#00c3ff; 
-	padding-right: 20px;
-	margin:auto;
+/*awards.html*/
+/*information for awards*/
+.awardInfo {
+	font-family: menlo;
+	color: white;
+}
+/*dates awards given*/
+p.awardDates {
+	font-family: menlo;
+	font-style: italic;
+	color:#3cff00;
+	margin-top: -20px;
 }
 
-/*purple hover link*/
-a:hover {
-	color: #ab24ff; 
+/*aboutme.html*/
+/*first line for about me page*/
+h3.firstLine {
+	font-family: menlo;
+	color: white;
 }
-
 
