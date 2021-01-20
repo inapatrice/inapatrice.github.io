@@ -63,17 +63,6 @@ p.pages {
 	padding-bottom: 0px;
 
 }
-/*page menu links -- blue*/
-a{
-	text-decoration: none;
-	color:#00c3ff; 
-	padding-right: 20px;
-	margin:auto;
-}
-/*link hover color -- purple*/
-a:hover {
-	color: #ab24ff; 
-}
 
 /*blinking cursor code*/
 .blinking {
@@ -191,4 +180,17 @@ h3.firstLine {
 	font-family: menlo;
 	color: white;
 }
+
+/*page menu links -- blue*/
+a{
+	text-decoration: none;
+	color:#00c3ff; 
+	padding-right: 20px;
+	margin:auto;
+}
+/*link hover color -- purple*/
+a:hover {
+	color: #ab24ff; 
+}
+
 
