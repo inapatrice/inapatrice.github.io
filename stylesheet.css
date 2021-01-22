@@ -193,4 +193,10 @@ a:hover {
 	color: #ab24ff; 
 }
 
-
+/* writing.html */
+div.writingDates {
+	font-family: menlo;
+	font-style: italic;
+	color: #ab24ff;
+	margin-top: -25px;
+}
